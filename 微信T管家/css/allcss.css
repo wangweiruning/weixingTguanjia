@@ -376,15 +376,19 @@ animation:f_6 2s linear 0s 1 alternate forwards;
 	position: absolute;
 	top:200px;
 	right:200px;
-	opacity: 1
+
 }
 #tese:target #b4_02{
-animation:b4_02 2s linear 0.5s 1 alternate forwards;
+animation:b4_02 2s linear 0s 1 alternate forwards;
 }
 @-webkit-keyframes b4_02{
-	from{
+	0%{
 		opacity:0;
-	}to{
+	}
+        50%{
+               opqcity:0;
+}   
+     100%{
 		opacity: 1;
 	}
 }
