@@ -386,7 +386,7 @@ animation:b4_02 2s linear 0s 1 alternate forwards;
 		opacity:0;
 	}
         50%{
-               opqcity:0;
+               opacity:0;
 }   
      100%{
 		opacity: 1;
